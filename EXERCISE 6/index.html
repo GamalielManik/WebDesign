@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>LATIHAN MEMBUAT FORMS</h1>
+        <h3>Silahkan isi formulir dibawah ini</h3>
+    </header>
+    <form action="/path">
+        <fieldset>
+            <legend><b>Calon Pegawai</b></legend><br>
+            <!--Data Fill-->
+            <label for="name">Nama: </label>
+            <input type="text" name="name" /><br><br>
+            <label for="addres">Alamat: </label>
+            <input type="text" name="addres" /><br><br>
+            <label for="pass">Password (Minimal 8 Karakter):</label>
+            <input type="password" id="pass" name="password"
+             minlength="8" required><br><br>
+            <!--RADIO BUTTON-->
+            <label for="gender">Jenis Kelamin: </label>
+            <input type="radio" id="laki" name="gender">
+            <label for="pria">Pria</label>
+            <input type="radio" id="perempuan" name="gender">
+            <label for="perempuan">Perempuan</label><br><br>
+            <!--checkbox-->
+            <label for="bahasa">Bahasa Pemrograman yang disukai: </label>
+            <input type="checkbox" name="bahasa" id="web">
+            <label for="web">WEB</label>
+            <input type="checkbox" name="bahasa" id="mobile">
+            <label for="mobile">MOBILE</label>
+            <input type="checkbox" name="bahasa" id="dekstop">
+            <label for="dekstop">DESKTOP</label><br><br>
+            <!--SELECT-->
+            <label for="kota">Kota Asal: </label>
+            <select name="kota" id="kota">
+                <option value="x">Surabaya</option>
+                <option value="x">Medan</option>
+                <option value="x">Manado</option>
+                <option value="x">Bali</option>
+            </select><br><br>
+            <!--TEXTAREA-->
+            <p><b>Kenapa kami harus memilih anda?</b></p>
+            <textarea name="alasan" id="alasan" cols="50" rows="10">Tulis jawabanmu disini...</textarea><br><br>
+            <!--BUTTON-->
+            <button type="button" onclick="alert('Terimkasih Sudah Mengisi Form')">PROSES</button>
+        </fieldset>
+    </form>
+</body>
+</html>

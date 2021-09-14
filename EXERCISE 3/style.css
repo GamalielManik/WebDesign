@@ -1,0 +1,88 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    text-align: center;
+}
+h1, h2, p{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span {
+    color: rgb(238, 255, 0);
+}
+
+/*STYLE PROFILE PICTURE*/
+img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.border-bulat {
+    border: 2px solid #ffffff;
+    width: 150px;
+    height: 150x;
+    overflow: hidden;
+    border-radius: 100%; /* Tambahkan baris berikut */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*STYLE IFRAME*/
+.table-iframe {
+    max-width: 980px;
+    position: relative;
+    margin: 0 auto;
+    border: 0px solid pink;
+    border: 0px solid black;
+
+}
+
+.video-youtube {
+    float: left;
+    height: 200px;
+    width: 30%;
+    border: 2px groove pink;
+    margin: 10px;
+    
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+/*STYLE SOCIAL MEDIA*/
+.social-media {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    size: 20%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 70px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+  }
+
+.fa-google, .fa-linkedin, .fa-youtube, .fa-instagram {
+    color: white;
+  }
+
+  
